@@ -190,7 +190,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity>  
                    if(r1.getCode()!=0){
                        log.error("远程保存sku信息失败");
                    }
-               }
+                }
 
 
 
