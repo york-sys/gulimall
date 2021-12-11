@@ -188,7 +188,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity>  
                if(skuReductionTo.getFullCount()>=0 || skuReductionTo.getFullPrice().compareTo( BigDecimal.ZERO)==1){
                    R r1 = couponFeignService.saveSkuReduction(skuReductionTo);
                    if(r1.getCode()!=0){
-                       log.error("远程保存sku信息失败");
+                        log.error("远程保存sku信息失败");
                    }
                 }
 
