@@ -245,6 +245,12 @@ respVo.setCatalogPath(catelogPath);
         PageUtils pageUtils = new PageUtils(page);
         return pageUtils;
     }
+
+    @Override
+    public List<Long> selectSearchAttrIds(List<Long> attrIds) {
+
+      return  this.baseMapper.selectSearchAttrIds(attrIds);
+    }
 }
 
 

@@ -8,10 +8,4 @@ spring:
 server:
   port: 30000
 
-alibaba:
-  cloud:
-    access-key: LTAI5t9y9ebXUA4DiEFX2zY6
-    secret-key: zwjc8uayaIAi8ypjnMcl5sMDEYFkPN
-    oss:
-      endpoint: oss-cn-zhangjiakou.aliyuncs.com
-      bucket: gmd-oss
+

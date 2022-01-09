@@ -1,4 +1,4 @@
-package com.atguigu.gulimall.product.controller;
+package com.atguigu.gulimall.product.app;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -19,7 +19,7 @@ import com.atguigu.common.utils.R;
 
 
 /**
- * 
+ *
  *
  * @author york
  * @email york@gmail.com

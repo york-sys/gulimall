@@ -1,4 +1,4 @@
-package com.atguigu.gulimall.product.controller;
+package com.atguigu.gulimall.product.app;
 
 import com.atguigu.common.utils.PageUtils;
 import com.atguigu.common.utils.R;
@@ -24,6 +24,8 @@ import java.util.Map;
 public class SkuInfoController {
     @Autowired
     private SkuInfoService skuInfoService;
+
+
 
     /**
      * 列表
